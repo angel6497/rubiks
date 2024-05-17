@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./Rubiks.css";
-import { Color, Face, Tile } from "../types/rubiks";
+import { Face, Tile } from "../types/rubiks";
 import { getFaceColors } from "../util/rubiks";
 
 const SELECTED_COLOR = "#14e37f";
