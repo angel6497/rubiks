@@ -1,0 +1,42 @@
+.rubiks {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rubiks-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.face {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.rubik-tile {
+  width: 50px !important;
+  height: 50px;
+  margin: 4px !important;
+  border-radius: 10px;
+  background-color: blue;
+  border-color: none;
+}
+
+.face-rotate-button {
+  width: 51px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: rgb(202, 202, 202);
+  border-color: none;
+  font-size: x-large;
+}
