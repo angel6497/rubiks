@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: rgb(222, 224, 235);
 }
 
 .rubiks-col {
@@ -31,5 +32,56 @@
   margin: 4px !important;
   border-radius: 10px;
   background-color: blue;
-  border-color: none;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.buttons-col {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.rotate-button {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  font-size: 60px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.reset-button {
+  width: 330px;
+  height: 150px;
+  margin: 15px;
+  font-size: 60px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rubiks-button:hover {
+  background-color: rgb(154, 176, 245);
+}
+
+.rubiks-button:active {
+  background-color: rgb(85, 109, 180);
+}
+
+.rubiks-button-rotate-icon {
+  margin-top: 10px !important;
+}
+
+.rubiks-button-text {
+  font-family: "Trebuchet MS" !important;
+  font-size: 40px;
+  margin-left: 30px;
 }

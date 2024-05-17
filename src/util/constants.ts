@@ -4,7 +4,7 @@ import { Vector3 } from "three";
 import { MoveDescriptor } from "../types/rubiks";
 
 export const COLORS = [
-  "gray",
+  "white",
   "red",
   "yellow",
   "green",
@@ -13,7 +13,7 @@ export const COLORS = [
 ] as const;
 
 export const FACE_TO_COLOR: { [key: string]: Color } = {
-  F: "gray",
+  F: "white",
   B: "red",
   R: "green",
   L: "yellow",
@@ -31,7 +31,7 @@ export const FACE_TO_MOVE_DESCRIPTOR: { [key: string]: MoveDescriptor } = {
 } as const;
 
 /**
- * Sorting functions to display each face correctly as a flattened cube.
+ * Sorting functions to display each face correctly as a flattened
  */
 export const FACE_TO_TILE_SORT_PREDICATE: {
   [key: string]: (t1: Tile, t2: Tile) => number;
